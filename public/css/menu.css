@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn a {
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: rgba(230, 180, 34, 1);
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-right: 10px; 
+    border-radius: 100px;
+}
+
+.btn a:hover {
+    color: wheat;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: -25px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.menu1-1,
+.menu1-2,
+.menu1-3,
+.menu1-4,
+.menu1-5,
+.menu1-6,
+.menu1-7,
+.menu1-8 {
+    width: 200px;
+    height: auto;
+    border: none;
+    text-decoration: none;
+    background-color: #b0c4de;
+}
+
+.menu1-1 img,
+.menu1-2 img,
+.menu1-3 img,
+.menu1-4 img,
+.menu1-5 img,
+.menu1-6 img,
+.menu1-7 img,
+.menu1-8 img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    background-color: #b0c4de;
+}
+
+.menu1-1 h3,
+.menu1-2 h3,
+.menu1-3 h3,
+.menu1-4 h3,
+.menu1-5 h3,
+.menu1-6 h3,
+.menu1-7 h3,
+.menu1-8 h3 {
+    margin-top: 10px;
+    background-color: #b0c4de;
+    text-decoration: none;
+}
+
+.menu1-1 p,
+.menu1-2 p,
+.menu1-3 p,
+.menu1-4 p,
+.menu1-5 p,
+.menu1-6 p,
+.menu1-7 p,
+.menu1-8 p {
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #b0c4de;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5,
+.menu6,
+.menu7,
+.menu8 {
+    display: inline-block; 
+}
+
+.menu1 a,
+.menu2 a,
+.menu3 a,
+.menu4 a,
+.menu5 a,
+.menu6 a,
+.menu7 a,
+.menu8 a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.text {
+    margin-top: 10px;
+    text-decoration: none;
+}

@@ -6,6 +6,11 @@
     <title></title>
 </head>
 <body>
-    <a href="">タップしてください</a>
+    <a href="menu">タップしてください</a>
+
+    <script>
+        let res = prompt('座席の番号を入力してください')
+        console.log(res);
+    </script>
 </body>
 </html>
