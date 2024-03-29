@@ -22,8 +22,8 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
-    public function down(): void
-    {
-        Schema::dropIfExists('menus_tablele');
-    }
+    // public function down(): void
+    // {
+    //     Schema::dropIfExists('menus_tablele');
+    // }
 };
